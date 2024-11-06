@@ -5,5 +5,5 @@
 หลังโคลนโปรเจคเสร็จเข้าใน path โปรเจคแล้วโหลด requirements
 pip install -r requirements.txt
 
-#First Week 
+# First Week 
 - ทำโปรแกรมจับภาพลูกบาสและแป้นบาส
