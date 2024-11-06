@@ -21,4 +21,4 @@ results = model("download.jpg", conf=0.6)
 results[0].show()
 
 # Export the model to ONNX format
-path = model.export(format="onnx")  # return path to exported model
+# path = model.export(format="onnx")  # return path to exported model
