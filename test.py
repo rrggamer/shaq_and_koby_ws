@@ -15,8 +15,8 @@ model = YOLO("yolo11n.pt")
 # metrics = model.val()
 
 # Perform object detection on an image
-results = model("OIP.jpg")
-# results = model.predict("R.jpg")
+# results = model("OIP.jpg", conf=0.6)
+results = model("download.jpg", conf=0.6)
 
 results[0].show()
 
