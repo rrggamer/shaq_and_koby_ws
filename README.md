@@ -1,5 +1,7 @@
 # shaq_and_koby_ws
 
+โปรเจคนี้ใช่ python 3.12
+
 หลังโคลนโปรเจคเสร็จเข้าใน path โปรเจคแล้วโหลด requirements
 pip install -r requirements.txt
 
