@@ -1,7 +1,9 @@
 from ultralytics import YOLO
+import torch
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
 # Load a model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo11n.pt").to(device)
 
 # # Train the model
 # train_results = model.train(
@@ -13,6 +15,7 @@ model = YOLO("yolo11n.pt")
 
 # # Evaluate model performance on the validation set
 # metrics = model.val()
+
 
 # Perform object detection on an image
 # results = model("OIP.jpg", conf=0.6)
